@@ -58,6 +58,37 @@ Backend မလိုဘဲ (Server ငှားစရာ မလို) စတင
 - [Claude Code](https://code.claude.com/docs/en/overview) — Pro/Max/Team/Enterprise Plan သို့မဟုတ် Console Account လိုအပ်သည်
 - Git အခြေခံ အသုံးပြုတတ်ခြင်း
 
+## စာအုပ်ကို Build လုပ်ခြင်း (EPUB / PDF)
+
+စာအုပ်ကို e-reader/ဖုန်းမှာ ဖတ်လို့ရအောင် **EPUB** နဲ့ **PDF** ထုတ်ချင်ရင် repo ရဲ့ root မှာ —
+
+```bash
+./build.sh          # EPUB နဲ့ PDF နှစ်ခုလုံး ထုတ်ရန်
+./build.sh epub     # EPUB တစ်ခုတည်း
+./build.sh pdf      # PDF တစ်ခုတည်း
+```
+
+ထွက်လာတဲ့ ဖိုင်တွေက `dist/` ထဲ ရောက်ပါမယ် —
+
+```
+dist/agentic-coding-basic-mm.epub
+dist/agentic-coding-basic-mm.pdf
+```
+
+**ဘယ်လို အလုပ်လုပ်လဲ** — `build.sh` က ပထမဆုံးအကြိမ်မှာ Python venv (`build/venv`) ဆောက်၊ လိုအပ်တဲ့ package (`markdown`, `fonttools`) install၊ Noto Sans Myanmar ဖောင့်ကို embed လုပ်ပြီး chapters တွေကို EPUB/PDF အဖြစ် စုစည်းပေးတယ်။ မြန်မာစာ မှန်မှန်ကန်ကန် ပေါ်အောင် ဖောင့်ကို ထည့်သွင်းပေးထားတာမို့ ဖောင့်မရှိတဲ့ Kindle/Kobo မှာလည်း ဖတ်လို့ရပါတယ်။
+
+**လိုအပ်ချက်** —
+
+- `python3`
+- PDF ထုတ်ဖို့အတွက် Chromium-based browser တစ်ခုခု (Google Chrome / Chromium / Microsoft Edge)။ တခြားနေရာမှာ ရှိရင် `CHROME=/path/to/chrome ./build.sh` လို့ ညွှန်ပေးလို့ရတယ်။
+- Build script က လက်ရှိမှာ **macOS** ကို ပစ်မှတ်ထားပါတယ် (စနစ်ထဲက Noto Sans Myanmar ဖောင့်ကို သုံးလို့)။ တခြား OS မှာဆို `NotoSansMyanmar-Regular.ttf` နဲ့ `-Bold.ttf` ကို `build/` ထဲ ကိုယ်တိုင် ထည့်ပေးရပါမယ်။
+
+## License
+
+[MIT License](LICENSE) — Copyright (c) 2026 Soe Thura။ လွတ်လပ်စွာ သုံး၊ ကူး၊ ပြင်၊ ဝေမျှ လို့ရပါတယ်။
+
+> မှတ်ချက် — embed လုပ်ထားတဲ့ Noto Sans Myanmar ဖောင့်က [SIL Open Font License (OFL)](https://fonts.google.com/noto/specimen/Noto+Sans+Myanmar/about) အောက်မှာ ရှိပါတယ်။
+
 ---
 
 <div align="center">
