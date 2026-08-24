@@ -83,6 +83,10 @@ dist/agentic-coding-basic-mm.pdf
 - PDF ထုတ်ဖို့အတွက် Chromium-based browser တစ်ခုခု (Google Chrome / Chromium / Microsoft Edge)။ တခြားနေရာမှာ ရှိရင် `CHROME=/path/to/chrome ./build.sh` လို့ ညွှန်ပေးလို့ရတယ်။
 - Build script က လက်ရှိမှာ **macOS** ကို ပစ်မှတ်ထားပါတယ် (စနစ်ထဲက Noto Sans Myanmar ဖောင့်ကို သုံးလို့)။ တခြား OS မှာဆို `NotoSansMyanmar-Regular.ttf` နဲ့ `-Bold.ttf` ကို `build/` ထဲ ကိုယ်တိုင် ထည့်ပေးရပါမယ်။
 
+## ဆက်လက်လေ့လာရန်
+
+ဒီစာအုပ်မှာ Agent ကို code ရေးခိုင်းတတ်အောင် အခြေခံအဆင့်ကနေ စတင်လေ့လာခဲ့ပါပြီ။ Real-world project တွေမှာတော့ Agent ကို code ရေးခိုင်းရုံနဲ့ မလုံလောက်တော့ဘဲ task boundary, verification, recovery, traceability, human approval စတဲ့ engineering workflow တွေကိုပါ စဉ်းစားလာရတတ်ပါတယ်။ ဒီအပိုင်းကို ဆက်လေ့လာချင်ရင် [PitWay](https://github.com/thixpin/pitway) ဆိုတဲ့ ကျွန်တော့ရဲ့ open-source project ကို လေ့လာနိုင်ပါတယ် (အခန်း (၉) ကနေ ဆက်ဖတ်ပါ)။
+
 ## License
 
 [MIT License](LICENSE) — Copyright (c) 2026 Soe Thura။ လွတ်လပ်စွာ သုံး၊ ကူး၊ ပြင်၊ ဝေမျှ လို့ရပါတယ်။

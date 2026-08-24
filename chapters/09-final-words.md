@@ -55,6 +55,20 @@ Agentic Coding ရဲ့ အလှတစ်ခုက — စမ်းသပ်�
 
 ---
 
+## ဆက်လက်လေ့လာလိုသူများအတွက်
+
+ဒီစာအုပ်က Agent ကို code ရေးခိုင်းတတ်အောင် အခြေခံကနေ လမ်းဖွင့်ပေးတာပါ။ မြရီစတိုးလို Project သေးသေးလေးအတွက်ဆိုရင် ဒီအထိပဲ လုံလောက်ပါတယ်။ ဒါပေမယ့် Project ကြီးလာ၊ Team ကြီးလာလေ — Agent ကို code ရေးခိုင်းရုံနဲ့ မလုံလောက်တော့ဘဲ Task ဘယ်အထိ လုပ်ခွင့်ပေးမလဲ (task boundary)၊ Agent ရလဒ်ကို ဘယ်လိုစစ်မလဲ (verification)၊ တစ်ခုခု မှားသွားရင် ဘယ်လိုပြန်ပြင်မလဲ (recovery)၊ ဘယ်သူ ဘာလုပ်ခဲ့လဲ ခြေရာခံနိုင်ရေး (Git traceability)၊ အရေးကြီးတဲ့ အဆင့်တွေမှာ လူသားဆီ ပြန်လှမ်းမေးရမလား (human approval) — စတဲ့ engineering workflow အချက်တွေကိုပါ စဉ်းစားလာရတတ်တယ်။
+
+ဒီပြဿနာကို လေ့လာနေတဲ့ ကျွန်တော့ရဲ့ open-source project တစ်ခုက **PitWay** ပါ —
+
+> PitWay — The pit crew for agentic coding.
+
+PitWay ကိုယ်တိုင်က Agent မဟုတ်ပါဘူး၊ code လည်း မရေးပါဘူး။ Code ရေးတာက Claude Code လို Agent ရဲ့ အလုပ်၊ PitWay ကတော့ အဲဒီ Agent ပတ်ဝန်းကျင်က engineering workflow — workflow state, task boundary, verification, traceability — တွေကို ချုပ်ကိုင်ပေးတဲ့ Tool ပါ။ MIT License နဲ့ Open Source ဖြစ်ပြီး npm ကနေ install လုပ်လို့ရပါတယ်။
+
+ဒီစာအုပ်မှာ သင်ခဲ့တဲ့ Agentic Coding အခြေခံတွေအတွက် PitWay ကို မသုံးမဖြစ် လိုအပ်တာတော့ မဟုတ်ပါဘူး — Agent တစ်ခုတည်းသုံးတာကနေ ပိုစည်းကမ်းရှိတဲ့ real-world engineering workflow ဘက် ဆက်တိုးချင်ရင် လေ့လာလို့ရမယ့် project တစ်ခုအနေနဲ့ ဖော်ပြလိုက်ပါတယ်။ စိတ်ဝင်စားရင် GitHub repository ကို လည်ကြည့်နိုင်ပါတယ် — https://github.com/thixpin/pitway
+
+---
+
 ## နောက်ဆက်တွဲ — အမြန်ကိုးကားရန် စာရင်း
 
 **Claude Code Commands**
