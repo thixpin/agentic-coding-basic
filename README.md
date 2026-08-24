@@ -56,6 +56,7 @@ Backend မလိုဘဲ (Server ငှားစရာ မလို) စတင
 
 - ကွန်ပျူတာ (macOS / Windows / Linux)
 - [Claude Code](https://code.claude.com/docs/en/overview) — Pro/Max/Team/Enterprise Plan သို့မဟုတ် Console Account လိုအပ်သည်
+- [Node.js](https://nodejs.org) (v18 နောက်ပိုင်း) — Mini Ecommerce Project ကို npm/Vite နဲ့ ဆောက်ဖို့ လိုအပ်သည်
 - Git အခြေခံ အသုံးပြုတတ်ခြင်း
 
 ## စာအုပ်ကို Build လုပ်ခြင်း (EPUB / PDF)

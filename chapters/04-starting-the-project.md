@@ -28,6 +28,8 @@ Claude Code ကို မဖွင့်ခင် ကျုပ် စာရွ�
 
 ## အဆင့် (၂) — Project Setup ခိုင်းခြင်း
 
+(Node.js v18 နောက်ပိုင်း install ထားပြီးသား ဖြစ်ဖို့ လိုတယ် — မရှိသေးရင် [nodejs.org](https://nodejs.org) ကနေ ရယူနိုင်ပါတယ်။)
+
 ```bash
 mkdir myaree-store
 cd myaree-store
